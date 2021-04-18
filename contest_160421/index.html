@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практикуемся вставлять изображения</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="page-header">
+    <h1 class="page-header__title">Практикуемся вставлять изображения</h1>
+    <p class="page-header__slogan">здесь есть и контентые, и декоративные, вам нужно правильно определить их и сверстать страницу </p>
+    <div class="button-wrapper">
+      <a class="button button--appstore" href="https://www.apple.com/app-store/">Можно скачать в App Store</a>
+      <a class="button button--googleplay" href="https://play.google.com/store">Можно скачать
+        в Google play</a>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="slider">
+      <h2 class="visually-hidden">Займи свой день!</h2>
+      <ul class="slider__list">
+        <li class="slider__item">
+          <img class="slider__img" src="img/slide.png" width="1176" height="1176" alt="Играем в шахматы">
+          <h3 class="slider__title">Чем заняться в пятницу вечером? Шахматы?</h3>
+          <button class="slider__control slider__control--previous" type="button" aria-label="Предыдущий слайд"></button>
+          <button class="slider__control slider__control--next" type="button" aria-label="Следующий слайд"></button>
+        </li>
+      </ul>
+    </section>
+    <section class="variants">
+      <h2 class="variants__title">Какие еще <br> есть варианты?</h2>
+      <ul class="variants__list">
+        <li class="variants__item variants__item--home">
+          <span class="variants__header">остаться дома</span>
+          <p class="variants__description">универсальный вариант, подходит для всех, кто любит отдыхать наедине с собой</p>
+        </li>
+        <li class="variants__item variants__item--learn">
+          <span class="variants__header">поучиться на природе</span>
+          <p class="variants__description">универсальный вариант, подходит для всех, кто любит отдыхать наедине с ноутбуком</p>
+        </li>
+        <li class="variants__item variants__item--ask-friend">
+          <span class="variants__header">спросить друга</span>
+          <p class="variants__description">универсальный вариант, подходит для всех, кто любит делегировать</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

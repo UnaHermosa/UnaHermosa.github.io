@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+  font-style: normal;
+  color:#000;
+  background-color: #eeeeee;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.page-header {
+  padding-top: 200px;
+  padding-bottom: 110px;
+}
+
+.page-header__title {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 75px;
+  line-height: 75px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.page-header__slogan {
+  width: 55%;
+  margin: 0 auto;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.button {
+  width: 270px;
+  padding: 33px 35px 33px 90px;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: 21px 25px;
+  background-size: 60px 60px;
+}
+
+.button--appstore {
+  background-image: url('../img/applestore.svg');
+}
+
+.button--googleplay {
+  background-image: url('../img/googleplay.svg');
+}
+
+.slider__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slider__item {
+  position: relative;
+  padding-bottom: 87px;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+}
+
+.slider__title {
+  width: 55%;
+  margin: 0  auto;
+  margin-top: -165px;
+  font-size: 45px;
+  line-height: 54px;
+  font-weight: 600;
+}
+
+.slider__img {
+  width: 1176px;
+  height: 1176px;
+  margin: 0  auto;
+  margin-top: -10px;
+}
+
+.slider__control {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  border-radius: 50%;
+  border: 2px solid #eee;
+  background-repeat: no-repeat;
+  top: 47%;
+}
+
+.slider__control--previous {
+  background-image: url('../img/arrow-prev.svg');
+  left: 52px;
+  background-position: 3px 50%;
+}
+
+.slider__control--next {
+  background-image: url('../img/arrow-next.svg');
+  right: 52px;
+  background-position: 10px 50%;
+}
+
+.variants {
+  padding: 104px 55px 200px;
+  background-color: #fff;
+}
+
+.variants__title {
+  width: 35%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.variants__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.variants__item {
+  width: 33%;
+  padding-top: 168px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  background-position: center 0;
+}
+
+.variants__item--home {
+  background-image: url('../img/lightbulb-icon.png');
+}
+
+.variants__item--learn {
+  background-image: url('../img/browse-icon.png');
+}
+
+.variants__item--ask-friend {
+  background-image: url('../img/tel-icon.png');
+}
+
+.variants__header {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: 600;
+}
+
+.variants__description {
+  margin: 0;
+}
